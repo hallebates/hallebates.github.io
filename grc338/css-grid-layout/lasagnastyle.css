@@ -1,0 +1,124 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+}
+
+
+figcaption{
+	color: rgb(34,34,34);
+	font-size: 1.15em;
+	font-family: poppins, sans-serif;
+	font-style: italic;
+	padding: 1.5em 2em 0.5em;
+	line-height: 1.3em;
+}
+
+div.container {
+    max-width: 60em;
+    margin: auto;
+    background-color: rgb(249,249,249);
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    margin-bottom: 4em;
+}
+
+figure{
+    display: grid;
+    grid-template-columns:3fr 1fr;
+    grid-column-gap: 0.5em;
+    margin-bottom: 2em;
+}
+
+h1 {
+	background-color: rgb(229, 136, 24);
+	color: rgb(249, 249, 249); 
+	font-size: 2em;
+	padding: 1em .4em .3em; 
+    line-height: 100%;
+    font-family: Sutro, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+	background-color: rgb(229, 136, 24);
+	color: rgb(220,194,159);
+	font-size: 1.5em;
+	padding: .5em 0.5em 1em;
+	font-family: Sutro, serif;
+	font-weight: 300;
+    font-style: normal;
+}
+
+h3 {
+	margin: .5em .75em 1em; /*Three values again. You got the idea.*/
+	padding-top: 0.5em;
+	font-size: 1.5em;
+	color: rgb(229, 136, 24);
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
+    padding-top: 0.5em;
+    margin-bottom: 0;
+    border-top: 3px solid rgb(229,136,24);
+}
+
+body {
+	background-color: rgb(221,221,221);
+	color: rgb(5, 5, 5);
+	line-height: 140%; 
+	font-family: Sutro, serif;
+}
+
+div.container{
+    max-width: 60em;
+    margin: auto;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3em;
+    margin-bottom: 4em;
+}
+
+ul {
+	margin: 1.5em 1.5em;
+    list-style-type: disc;
+     font-family: Sutro, serif;  
+    font-weight: 300;  
+    font-style: normal;
+}
+
+ol { 
+	margin: 1.5em 1.5em;
+	list-style-type: decimal;
+    font-family: Sutro, serif;  
+    font-weight: 300;  
+    font-style: normal;
+
+}
+
+footer{
+    padding:.75em 1em .75em;
+    background-color: rgb(229, 136, 24);
+	color: rgb(249, 249, 249);
+	line-height: 140%; 
+	font-family: Sutro, serif;
+}
+
+li{
+    margin-bottom: 0.75em;
+}
+
+
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
